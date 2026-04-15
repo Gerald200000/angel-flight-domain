@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delete Account – Angel Flight</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(180deg, #05050f, #0a0a2e, #1a1060);
+      color: #e0e0e0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 24px;
+    }
+    .cross { font-size: 2.5rem; margin-bottom: 16px; }
+    h1 { font-size: 1.8rem; color: #ffd700; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 12px; }
+    .card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,215,0,0.2);
+      border-radius: 16px;
+      padding: 32px;
+      max-width: 560px;
+      width: 100%;
+      text-align: left;
+      margin-top: 24px;
+    }
+    h2 { color: #ffd700; font-size: 1rem; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 14px; }
+    p { color: #cccccc; font-size: 0.95rem; line-height: 1.75; margin-bottom: 12px; }
+    ul { padding-left: 20px; margin-bottom: 16px; }
+    li { color: #cccccc; font-size: 0.95rem; line-height: 1.75; margin-bottom: 6px; }
+    strong { color: #ffffffee; }
+    .step {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+    .step-num {
+      background: linear-gradient(135deg, #ffd700, #ffaa00);
+      color: #000;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 0.85rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .email-btn {
+      display: inline-block;
+      margin-top: 20px;
+      background: linear-gradient(135deg, #ffd700, #ffaa00);
+      color: #000;
+      font-weight: 700;
+      padding: 14px 32px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 0.95rem;
+      letter-spacing: 1px;
+      text-align: center;
+      width: 100%;
+    }
+    .email-btn:hover { opacity: 0.9; }
+    .retention {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-top: 20px;
+    }
+    .retention h3 { color: #ffd700aa; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 10px; }
+    footer {
+      margin-top: 40px;
+      color: #ffffff33;
+      font-size: 0.82rem;
+    }
+    footer a { color: #ffd700aa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <div class="cross">✝</div>
+  <h1>Delete My Account</h1>
+  <p style="color:#ffffffaa; max-width:480px; margin-top:8px;">Angel Flight — by SmartTools</p>
+
+  <div class="card">
+    <h2>How to Request Account Deletion</h2>
+    <p>To delete your Angel Flight account and associated data, follow these steps:</p>
+
+    <div class="step">
+      <div class="step-num">1</div>
+      <p>Send an email to <strong>info@smarttools.co.za</strong> with the subject line:<br><strong>"Angel Flight – Delete My Account"</strong></p>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <p>Include your <strong>Google display name</strong> (the name shown on the leaderboard) so we can identify your account.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <p>We will process your request within <strong>7 days</strong> and confirm via email once your data has been deleted.</p>
+    </div>
+
+    <a class="email-btn" href="mailto:info@smarttools.co.za?subject=Angel%20Flight%20%E2%80%93%20Delete%20My%20Account&body=Hi%2C%0A%0APlease%20delete%20my%20Angel%20Flight%20account%20and%20all%20associated%20data.%0A%0AMy%20display%20name%20is%3A%20">
+      Email Us to Delete Account
+    </a>
+
+    <div class="retention">
+      <h3>What gets deleted &amp; what is kept</h3>
+      <ul>
+        <li><strong>Deleted:</strong> Your display name and leaderboard score from our servers</li>
+        <li><strong>Deleted:</strong> Your Google User ID from our database</li>
+        <li><strong>Kept temporarily:</strong> Server access logs may be retained for up to 30 days for security purposes, after which they are automatically purged</li>
+        <li><strong>Not held by us:</strong> Local data (high score, character selection) stored on your device — uninstall the app to remove it</li>
+        <li><strong>Not held by us:</strong> Google account data and AdMob advertising data — managed by Google directly</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer style="margin-top:32px;">
+    <p>© 2025 SmartTools. <a href="privacy-policy.html">Privacy Policy</a> · <a href="index.html">Home</a></p>
+  </footer>
+
+</body>
+</html>
