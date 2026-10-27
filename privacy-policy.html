@@ -175,7 +175,7 @@
   <div class="cross">✝</div>
   <h1>Angel Flight</h1>
   <div class="subtitle">Privacy Policy</div>
-  <div class="updated">Last updated: April 15, 2025</div>
+  <div class="updated">Last updated: October 27, 2026</div>
 </header>
 
 <main>
@@ -232,9 +232,18 @@
       <ul>
         <li><strong>Display name</strong> — shown on the global leaderboard</li>
         <li><strong>Google User ID</strong> — used to uniquely identify your leaderboard entry and prevent duplicate submissions</li>
+        <li><strong>Email address</strong> — stored by Google Firebase Authentication to manage your sign-in account (not stored on our leaderboard server and never shown publicly)</li>
         <li><strong>Profile photo URL</strong> — displayed in the welcome screen (not stored on our servers)</li>
       </ul>
-      <p>We do not collect your email address, phone number, or any other Google account data beyond what is listed above.</p>
+      <p>We do not collect your phone number or any other Google account data beyond what is listed above.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Church &amp; Prayer Requests (Optional)</div>
+      <ul>
+        <li><strong>Church name</strong> — the church you choose is submitted with your score so it can appear on the church leaderboard</li>
+        <li><strong>Prayer requests</strong> — if you choose to post a prayer request, your name, church and the text of your request are stored on our server and shown to other players so they can pray for you</li>
+      </ul>
     </div>
 
     <h3>2.2 Information Collected Automatically</h3>
@@ -261,7 +270,6 @@
     <h3>2.3 Information We Do NOT Collect</h3>
     <div class="card">
       <ul>
-        <li>Email address</li>
         <li>Phone number</li>
         <li>Physical location or GPS data</li>
         <li>Contacts or address book</li>
@@ -281,8 +289,11 @@
         <tr><td>Google User ID</td><td><span class="tag tag-opt">If signed in</span></td><td><span class="tag tag-opt">Leaderboard only</span></td><td><span class="tag tag-no">No</span></td></tr>
         <tr><td>Game score</td><td><span class="tag tag-yes">Yes</span></td><td><span class="tag tag-opt">Normal difficulty</span></td><td><span class="tag tag-opt">Public leaderboard</span></td></tr>
         <tr><td>Advertising ID</td><td><span class="tag tag-yes">By AdMob</span></td><td><span class="tag tag-no">Not by us</span></td><td><span class="tag tag-opt">Google AdMob</span></td></tr>
-        <tr><td>Email address</td><td><span class="tag tag-no">Never</span></td><td><span class="tag tag-no">Never</span></td><td><span class="tag tag-no">Never</span></td></tr>
-        <tr><td>Location</td><td><span class="tag tag-no">Never</span></td><td><span class="tag tag-no">Never</span></td><td><span class="tag tag-no">Never</span></td></tr>
+        <tr><td>Email address</td><td><span class="tag tag-opt">If signed in</span></td><td><span class="tag tag-no">Firebase Auth only</span></td><td><span class="tag tag-no">No</span></td></tr>
+        <tr><td>Church name</td><td><span class="tag tag-opt">If chosen</span></td><td><span class="tag tag-opt">Leaderboard &amp; prayers</span></td><td><span class="tag tag-opt">Public leaderboard</span></td></tr>
+        <tr><td>Prayer requests</td><td><span class="tag tag-opt">If posted</span></td><td><span class="tag tag-yes">Yes</span></td><td><span class="tag tag-opt">Visible to players</span></td></tr>
+        <tr><td>Approximate location</td><td><span class="tag tag-yes">By AdMob (from IP)</span></td><td><span class="tag tag-no">Not by us</span></td><td><span class="tag tag-opt">Google AdMob</span></td></tr>
+        <tr><td>Precise / GPS location</td><td><span class="tag tag-no">Never</span></td><td><span class="tag tag-no">Never</span></td><td><span class="tag tag-no">Never</span></td></tr>
       </tbody>
     </table>
   </div>
@@ -296,7 +307,8 @@
     <div class="card">
       <p>We use the information we collect for the following purposes:</p>
       <ul>
-        <li><strong>Leaderboard functionality</strong> — to display your name and score on the global leaderboard so you can compete with other players</li>
+        <li><strong>Leaderboard functionality</strong> — to display your name, church and score on the global and church leaderboards so you can compete with other players</li>
+        <li><strong>Prayer wall</strong> — to show prayer requests you choose to post so other players can pray for you</li>
         <li><strong>Preventing duplicate entries</strong> — your Google User ID ensures your leaderboard entry is updated rather than duplicated</li>
         <li><strong>Serving advertisements</strong> — to display banner ads via Google AdMob, which helps fund free access to the app</li>
         <li><strong>App improvement</strong> — aggregate, anonymised usage patterns may be used to improve gameplay balance and performance</li>
@@ -424,11 +436,12 @@
     </div>
     <div class="card">
       <ul>
-        <li><strong>Leaderboard data</strong> — your name and score are retained on our servers for as long as the leaderboard service is active, or until you request deletion.</li>
+        <li><strong>Leaderboard data</strong> — your name, church and score are retained on our servers for as long as the leaderboard service is active, or until you request deletion.</li>
+        <li><strong>Prayer requests</strong> — retained on our servers until you request deletion.</li>
         <li><strong>Local device data</strong> — high scores, character selections, and mission progress are stored on your device indefinitely until the app is uninstalled or you clear app data.</li>
         <li><strong>Advertising data</strong> — governed by Google AdMob's own retention policies.</li>
       </ul>
-      <p style="margin-top:12px;">To request deletion of your leaderboard data, contact us at <a href="mailto:info@smarttools.co.za">info@smarttools.co.za</a> with the subject line <strong>"Data Deletion Request"</strong> and include your Google display name.</p>
+      <p style="margin-top:12px;">To request deletion of your leaderboard data or prayer requests, contact us at <a href="mailto:info@smarttools.co.za">info@smarttools.co.za</a> with the subject line <strong>"Data Deletion Request"</strong> and include your Google display name.</p>
     </div>
   </div>
 
